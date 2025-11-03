@@ -1,4 +1,4 @@
-package QuesPractice;
+//package QuesPractice;
 
 import java.util.Scanner;
 

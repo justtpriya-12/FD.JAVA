@@ -8,16 +8,19 @@ public class lt_1 {
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
+        int index1=-1;
+        int index2=-1;
         int target = sc.nextInt();
         for(int i = 0; i < n; i++){
             for(int j = i+1; j < n; j++){
                 if(arr[i]+arr[j] == target){
-                    System.out.println(arr[i]+" "+arr[j]);
-                    System.out.println(i+" "+j);
+                    index1 = i;
+                    index2 = j;
                     break;
                 }
             }
         }
+        System.out.println(index1+" "+index2);
     }
     
 }
